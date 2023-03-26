@@ -1,17 +1,20 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-
-  margin: 20px;
+  width: 100%;
 }
 
 td,
 th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.table-container {
+  margin: 20px;
 }
