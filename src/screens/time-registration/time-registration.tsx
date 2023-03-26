@@ -10,12 +10,10 @@ export const TimeRegistration = () => {
   const [startDate, setStartDate] = useState<Date>(new Date());
 
   const handleClickNext = () => {
+    // check data and save it 
     navigate(ConfigRoutes.TIME_OVERVIEW)
   }; 
 
-  const handleClickBack = () => {
-    navigate(ConfigRoutes.HOME)
-  }; 
   
   return (
     <div>
@@ -31,13 +29,18 @@ export const TimeRegistration = () => {
         <div className="time-registration">
           <h2>Zeit eintragen</h2>
           <div className="input-container">
-            <label>Label 1</label>
-            <input type="time" id="name" name="name"></input>
+            <div className="input-1">
+              <label>Startzeit</label>
+              <input type="time" id="time" name="time"></input>
+            </div>
+            <div className="input-2">
+              <label>Endzeit</label>
+              <input type="time" id="time" name="time"></input>
+            </div>
           </div>
         </div>
       </div>
       <div>
-        <button onClick={handleClickBack}>Zurück</button>
         <button onClick={handleClickNext}>Weiter</button>
       </div>
     </div>

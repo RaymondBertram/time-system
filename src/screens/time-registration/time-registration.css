@@ -1,6 +1,15 @@
+label {
+  margin-right: 5px;
+}
+
 .container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
 }
 
