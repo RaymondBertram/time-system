@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Low-Fidely Prototype for a project. It basically allows you to insert a date and start and end time. It analysis the working time and printing out if you work to much. 
 
 ## Available Scripts
 
