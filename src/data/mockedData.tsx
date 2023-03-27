@@ -24,20 +24,4 @@ export const mockedData: MockedDataProps[] = [
     soll: 8, 
     difference: 1, 
   }, 
-  {
-    date: '03.02.2023', 
-    start: '08:00', 
-    end: '16:00',
-    ist: 8, 
-    soll: 8, 
-    difference: 0, 
-  }, 
-  {
-    date: '04.02.2023', 
-    start: '08:00', 
-    end: '16:00',
-    ist: 8, 
-    soll: 8, 
-    difference: 0, 
-  }, 
 ];

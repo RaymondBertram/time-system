@@ -12,7 +12,6 @@ import { TimeRegistration } from './screens/time-registration/time-registration'
 
 import './App.css';
 
-
 export default function TimeSystem() {
   return (
     <Router>
@@ -26,4 +25,3 @@ export default function TimeSystem() {
     </Router>
   );
 }
-
