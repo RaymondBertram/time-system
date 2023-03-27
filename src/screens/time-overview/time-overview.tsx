@@ -46,9 +46,9 @@ export const TimeOverview = () => {
               <th>Datum</th>
               <th>Startzeit</th> 
               <th>Endzeit</th>
-              <th>Ist</th>
-              <th>Soll</th> 
-              <th>Differenz</th>
+              <th>Ist (Stunden)</th>
+              <th>Soll (Stunden)</th> 
+              <th>Differenz (Stunden)</th>
             </tr>
           </thead>
           <tbody>

@@ -21,7 +21,7 @@ export const TimeRegistration = () => {
 
   const handleClickNext = () => {
     if ((startTime && endTime) === '') {
-      alert('Es wurden keine Daten eingegeben. Bitte geben Sie die Daten an und versuchen Sie es erneut!')
+      alert('Die Daten wurden falsch angegeben. Bitte versuchen Sie es erneut!')
       console.log('no data'); 
       navigate(ConfigRoutes.TIME_REGISTRATION)
     } else {
