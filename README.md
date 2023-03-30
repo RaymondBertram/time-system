@@ -25,6 +25,9 @@ Es wird davon ausgegangen, dass Sie sich ***[node.js](https://nodejs.org/de)*** 
 - Überprüfe ob node.js korrekt installiert wurde. 
 - `node_modules` nicht korrekt installiert? Nutze `npm install --legacy-peer-deps`, um alle notwendigen `node_modules` zu installieren. 
 
+## Erklärung node_modules
+`node_modules` sind Pakete, die gebaut wurden um bereits entwickelte Komponenten wie beispielsweise [dayjs](https://day.js.org) wiederzuverwenden. Es dient dazu, dass nicht alles selbst entwickelt werden muss und um den Arbeitsaufwand zu minimieren. 
+
 ## Scripte
 `npm start`
 
@@ -35,8 +38,7 @@ Sobald das Skript im Terminal eingegeben wurde, öffnet sich ein Localhost [http
 
 Installation aller notwendigen node_modules, die für die Ausführung der Anwendung in der lokalen Umgebung erforderlich sind.
 
-## Erklärung node_modules
-`node_modules` sind Pakete, die gebaut wurden um bereits entwickelte Komponenten wie beispielsweise [dayjs](https://day.js.org) wiederzuverwenden. Es dient dazu, dass nicht alles selbst entwickelt werden muss und um den Arbeitsaufwand zu minimieren. 
+
 
 
 
@@ -62,6 +64,9 @@ It is assumed that you have downloaded ***[node.js](https://nodejs.org/de)*** an
 - check if node.js is correctly installed
 - `node_modules` not correctly installed? Use `npm install --legacy-peer-deps` to correctly install them. 
 
+## Explanation node_modules
+`node_modules` are packages built to reuse already developed components such as [dayjs](https://day.js.org). It is used to avoid having to develop everything yourself and to minimise the workload.
+
 ## Available Scripts
 
 `npm start`
@@ -72,8 +77,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 `npm install --legacy-peer-deps`
 
 Installing all neccessary node_modules that are required for running the app on local enviroment. 
-
-## Explanation node_modules
-`node_modules` are packages built to reuse already developed components such as [dayjs](https://day.js.org). It is used to avoid having to develop everything yourself and to minimise the workload.
 
 ***Owner [Raymond Bertram](https://github.com/RaymondBertram)***
