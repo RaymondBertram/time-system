@@ -21,7 +21,7 @@ Es wird davon ausgegangen, dass Sie sich ***[node.js](https://nodejs.org/de)*** 
 4. Das Projekt wird in ihrem Standardbrowser geöffnet. (Empfohlen wird GoogleChrome: Kopieren Sie einfach die URL und fügen Sie diese in Browser ein)
 
 
-## Still Problems Running The App?
+## Treten Probleme auf?
 - Überprüfe ob node.js korrekt installiert wurde. 
 - `node_modules` nicht korrekt installiert? Nutze `npm install --legacy-peer-deps`, um alle notwendigen `node_modules` zu installieren. 
 
