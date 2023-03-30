@@ -8,8 +8,8 @@ Um das Projekt auf dem eigenen Maschine (macOS/Windows) laufen lassen zu können
 
 
 ## Anleitung
-1. Downloaden Sie sich die ZIP-Datei aus dem Repository. 
-.md/assets/repository.png
+1. ![Downloaden Sie sich die ZIP-Datei aus dem Repository. ](./assets/repository.png)
+
 2. 
 
 ## Scripte
