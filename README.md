@@ -5,7 +5,7 @@
 Das Projekt Time-System ist ein Low-Fidelity Prototype. Es wurde während meiner Studienzeit an der DHfPG als Praxis-Projektarbeit gebaut. Gebaut wurde es mit ***[ReactJS](https://react.dev)***, ***[Typescript](https://www.typescriptlang.org)*** und ***[CSS](https://www.w3schools.com/css/)***. Der Prototyp ist ein Zeiterfassungssystem, was im ersten Schritt die Zeit erfasst und im Nachhinein in einer Übersichtstabelle anzeigt. Die Übersichtstabelle zeigt die eingetragenen Zeiten. Die Daten werden im Form von Mocked Data dargestellt und dementsprechend nur im Frontend generiert.  
 
 ## System Anforderungen
-Um das Projekt auf dem eigenen Maschine (macOS/Windows) laufen lassen zu können, wird ***[node.js](https://nodejs.org/de)*** und ein ***Code Editor***, wie ***[VSCode](https://code.visualstudio.com)*** benötigt. 
+Um das Projekt auf der eigenen Maschine (macOS/Windows) laufen lassen zu können, wird ***[node.js](https://nodejs.org/de)*** und ein ***Code Editor***, wie ***[VSCode](https://code.visualstudio.com)*** benötigt. 
 
 
 ## Anleitung
